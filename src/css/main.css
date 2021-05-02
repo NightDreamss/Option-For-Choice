@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.gatsby-image-wrapper-constrained {
+  display: block !important;
+}
+
+blockquote {
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+  margin-inline-end: 0 !important;
+  margin-inline-start: 0 !important;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/*
+Navbar
+*/
+.text {
+  color: black;
+}
+.services {
+  display: none;
+}
+.service:hover .services {
+  display: block;
+}
